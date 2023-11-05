@@ -22,8 +22,8 @@ class MasinaDeCurse extends Masina {
     m2.participaLaCampionat(1); 
     m2.participaLaCampionat(-1);// Va afișa: Nu am castigat niciun premiu
 
-    console.log(m1.proprietati); // Va afișa proprietățile masinii cu premiu
-    console.log(m2.proprietati); // Va afișa proprietățile masinii fără premiu
+    console.log(m1.proprietati); 
+    console.log(m2.proprietati); 
     console.log(m3.proprietati);
   }
   
