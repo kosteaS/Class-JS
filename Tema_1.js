@@ -13,18 +13,20 @@ class Masina {
         kilometraj=${this.kilometraj}]`;
     }
   }
+ 
+     module.exports = Masina;
+//Functie pentru tema 1
+//  function main() {
+//    const m1 = new Masina("Volvo", "XC-60", "Negru", "234 000");
+//    const m2 = new Masina("Mazda", "CX-5", "Verde", "111 000");
+//    const m3 = new Masina("Dacia", "BIGGSTER", "Albastru", "20 000");
   
-  function main() {
-    const masina1 = new Masina("Volvo", "XC-60", "Negru", "234 000");
-    const masina2 = new Masina("Mazda", "CX-5", "Verde", "111 000");
-    const masina3 = new Masina("Dacia", "BIGGSTER", "Albastru", "20 000");
+ //   console.log(m1.proprietati);
+ //   console.log(m2.proprietati); 
+ //   console.log(m3.proprietati); 
+ // }
   
-    console.log(masina1.proprietati);
-    console.log(masina2.proprietati); 
-    console.log(masina3.proprietati); 
-  }
-  
-  main();
+//  main();
  
   
   
